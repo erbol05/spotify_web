@@ -1,0 +1,48 @@
+.product {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.183);
+  padding-top: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  h1 {
+    padding-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.57);
+  }
+  .one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 29px;
+      color: rgba(255, 255, 255, 0.57);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      span {
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+    }
+    h2:hover {
+        color: white;
+        transition: 0.4s;
+    }
+    h3 {
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.57);
+    }
+    // h3:hover {
+    //     color: white;
+    //     transition: 0.4s;
+    // }
+  }
+}
